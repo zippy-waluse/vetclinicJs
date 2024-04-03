@@ -1,0 +1,134 @@
+#d1{
+    display: flex;
+    gap: 15%;
+    margin-left: 5%;
+}
+
+#vet{
+    color: orange;
+}
+
+#cont{
+    display: flex;
+    gap: 15%;
+}
+
+#H1{
+    font-size: large;
+}
+
+#but1{
+    background-color: lightseagreen;
+    border-radius: 8%;
+    width: 30%;
+    height: 6%;
+}
+
+#serve{
+    display: flex;
+    gap: 40%;
+}
+
+#d2{
+    display: flex;
+    gap: 15%;
+    font-size: larger;
+    margin-left: 20%;
+}
+
+#doc{
+    /* height: 10%; */
+    width: 40%;
+    margin-left: 20%;
+}
+
+#lady{
+    display: flex;
+}
+
+#pat{
+    margin-left: 10%;
+    display: flex;
+    gap: 30%;
+}
+
+.ic{
+    width: 18%;
+}
+
+#icon {
+    display: flex;
+    margin-left: 19%;
+    gap: 30%;
+}
+
+#mdoc{
+    display: flex;
+    margin-left: 5%;
+    gap: 20%;
+}
+
+.md{
+    width: 100%;
+    height: 80%;
+}
+
+#vet{
+    margin-left: 5%;
+}
+
+#mail{
+    text-align: center;
+}
+
+#but2{
+    width: 70%;
+    height: 40%;
+    background-color: lightgreen;
+}
+
+#foot{
+    display: flex;
+    gap: 20%;
+    background-color: aquamarine;
+}
+
+.txt{
+    color: orangered;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 939px){
+
+    #d1{
+        flex-wrap: wrap;
+    }
+
+    #cont{
+        flex-wrap: wrap;
+    }
+
+    #dg{
+        width: 90%;
+    }
+
+    #d2{
+        margin-right: 5%;
+
+
+    }
+
+    #mdoc{
+        flex-wrap: wrap;
+    }
+
+    #foot{
+        flex-wrap: wrap;
+    }
+
+    #d2{
+        font-size: large;
+    }
+
+   
+}
