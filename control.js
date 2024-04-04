@@ -51,16 +51,12 @@ useContinue(processedFruits);
 // Write a function that accepts an array of strings and console.logs each element using a for loop.
 
 function acceptArray (arr){
-  for(let i =0; i<arr.length;+i++){
-    if (i==2){
-      continue;
-    }
-console.log(acceptArray[i])
+  for(let i =0; i<=arr.length;i++){
+    console.log(arr[i]);
   }
 }
 
-
-
+acceptArray(['eat','run','sleep'])
 
 
 
