@@ -50,10 +50,11 @@ useContinue(processedFruits);
 
 // Write a function that accepts an array of strings and console.logs each element using a for loop.
 
-function acceptArray (arr){
-  for(let i =0; i<=arr.length;i++){
-    console.log(arr[i]);
+function acceptArray (verb){
+  for(let i =0; i<=verb.length;i++){
+   
   }
+  console.log((verb[i]));
 }
 
 acceptArray(['eat','run','sleep'])
@@ -64,18 +65,20 @@ acceptArray(['eat','run','sleep'])
 
 // Write a JavaScript function that takes a string as input and reverses it using a while loop. The function should return the reversed string. 
 
-function takesString(str){
-  const i = str.length -1
-  const reversedS = "";
 
-
-  while (0 <= i){
-    reversedS += str[i];
-    i--;
-  };
-  return reversedS;
-  // console.log(takesString("Waluse"));
+function takesString (word){
+let i=word.length;
+while(i--){
+  console.log((word[i]))
 }
+
+
+
+}
+
+takesString("Waluse")
+
+
 
 
 
